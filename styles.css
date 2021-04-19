@@ -1,0 +1,31 @@
+.carousel_container {
+    position: relative;
+}
+
+.prev_next {
+    position: absolute;
+    top: 47%;
+    cursor: pointer;
+}
+
+#previous {
+    left: 0;
+}
+
+#next {
+    right: 0;
+}
+
+.carousel-item {
+    width: 450px!important;
+}
+
+.indicator-item {
+    width: 12px !important;
+    height: 12px !important;
+    background: silver;
+}
+
+.indicator-item.active {
+    background: #33333390 !important;
+}
